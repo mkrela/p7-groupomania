@@ -5,7 +5,19 @@
 }
 
 * {
+  font-family: "Ubuntu";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+$primary-color: #f5725188;
+$secondary-color: #398db1a2;
+$tertiary-color: #7a314d9a;
+$white: #F5F5F5;
+$black: #12100E;

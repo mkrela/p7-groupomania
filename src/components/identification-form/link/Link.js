@@ -1,11 +1,10 @@
 import React from 'react';
+import "./Link.scss"
 
-const Link = () => {
+const Link = ({content}) => {
     return (
-        <div>
-
-        </div>
+        <p className="link">{content}</p>
     );
 };
 
-export default Link; 
+export default Link;

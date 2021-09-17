@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <NavLink exact to="/connexion">
-        <img className="logo" src="public\imgs\logos\icon-left-font-monochrome-black.png" alt="Groupomania" />
+        <img className="logo" src="../../../public/imgs/logos/icon-left-font-monochrome-black.svg" alt="Groupomania" />
       </NavLink>
     </header>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Button.scss"
 
-const Button = () => {
+const Button = ({name}) => {
     return (
-        <div>
-
-        </div>
+        <button>
+            {name}
+        </button>
     );
 };
 
-export default Button; 
+export default Button;

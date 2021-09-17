@@ -1,10 +1,5 @@
 @import "../../../styles/settings.scss";
 
-.tab-connexion {
-  width: 100%;
-  @include flex-center;
-  cursor: pointer;
-}
 
 .register-or-login {
   width: 100%;
@@ -20,8 +15,17 @@
   @include flex-center;
   padding: 20px;
   width: 100%;
-  border-bottom: 1px solid $black;
+  // border-bottom: 1px solid black;
+  z-index: 1;
   h3 {
     text-transform: capitalize;
   }
+}
+
+.active-style {
+  background-color: rgba(221, 221, 221, 0.151);
+  border-bottom: none !important;
+}
+h3 {
+  text-transform: capitalize;
 }

@@ -1,7 +1,8 @@
 @import "../../styles/settings.scss";
 
 header {
-  width: 100%;
+  background: white;
+  width: 100% !important;
   height: 80px;
   @include flex-center;
   & a {

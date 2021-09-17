@@ -3,12 +3,7 @@
 .register-or-login {
   width: 100%;
   @include flex-center;
-  background: $white;
-
-  .active {
-    background: $primary-color;
-    color: $white;
-  }
+  background: white;
 }
 .tabs {
   @include flex-center;

@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <NavLink exact to="/">
-        <img className="logo" src="./imgs/logo/icon-left-font.png" alt="Groupomania" />
+      <NavLink exact to="/connexion">
+        <img className="logo" src="public\imgs\logos\icon-left-font-monochrome-black.png" alt="Groupomania" />
       </NavLink>
     </header>
   );

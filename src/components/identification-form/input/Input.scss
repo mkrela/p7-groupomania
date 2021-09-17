@@ -4,7 +4,7 @@ form {
   margin-top: 20px;
   flex-direction: column;
   width: 100%;
-  background: yellow;
+  background: $primary-color;
   .input-container {
     width: 100%;
     @include flex-center;

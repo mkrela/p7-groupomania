@@ -22,6 +22,7 @@ const IdentificationForm = () => {
     <div className="identification-container">
       <div className="register-or-login">
         <Tab onClick={displayRegister}>Inscription</Tab>
+        <div className="break" />
         <Tab onClick={displayLogin}>Connexion</Tab>
       </div>
       {formRegister === "register" ? (

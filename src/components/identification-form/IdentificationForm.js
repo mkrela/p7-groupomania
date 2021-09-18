@@ -6,7 +6,7 @@ import Form from "./Form/Form";
 
 const IdentificationForm = () => {
   const [form, setForm] = useState({
-    formLogin: "login",
+    formLogin: null,
     formRegister: "register",
   });
 

@@ -19,6 +19,17 @@
 $primary-color: #f5725188;
 $secondary-color: #398db1a2;
 $tertiary-color: #7a314d9a;
+$pure-white: #FFFFFF;
 $white: #F5F5F5;
 $grey: #eeeeee;
 $black: #12100E;
+
+main {
+  @include flex-center;
+}
+
+body {
+  @include flex-center;
+  width: 100%;
+  background: $primary-color;
+}

@@ -23,6 +23,7 @@ const Input = ({
   return (
     <div className={className}>
       <input
+        className="testt"
         type={type}
         id={id}
         name={name}

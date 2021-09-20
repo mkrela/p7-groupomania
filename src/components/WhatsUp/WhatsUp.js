@@ -5,11 +5,16 @@ import Input from "../UI/input/Input";
 import { faImages, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 const WhatsUp = () => {
-  const firstName = "Francesca"
+  const firstName = "Francesca";
   return (
     <>
       <Avatar />
-      <Input className="input_container" placeholder= {`Quoi de neuf, ${firstName} ?`} icon1={faImages} icon2={faPaperPlane} />
+      <Input
+        className={"input_container"}
+        placeholder={`Quoi de neuf, ${firstName} ?`}
+        icon1={faImages}
+        icon2={faPaperPlane}
+      />
       <IconAlone />
     </>
   );

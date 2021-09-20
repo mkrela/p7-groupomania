@@ -4,7 +4,7 @@ import "./Avatar.scss";
 const Avatar = () => {
   return (
   <div className="whats_up-img">
-    <img src="/imgs/profile-imgs/me.jpg" alt="profile_picture" />
+    <img src="/imgs/profile-imgs/hey.jpg" alt="profile_picture" />
   </div>
     )
 };

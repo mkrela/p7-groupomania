@@ -3,6 +3,17 @@
 .input_container {
   width: 100%;
   @include flex-center;
+  flex-direction: column;
+  .icons_container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    svg {
+      margin: 0 5px;
+      font-size: 18px;
+      color: lighten($secondary-color, 15%);
+    }
+  }
   input {
     width: 80%;
     height: 40px;

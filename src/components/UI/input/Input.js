@@ -1,7 +1,18 @@
 import React, { useState } from "react";
 import "./Input.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Input = ({ className, type, id, name, placeholder, min, max }) => {
+const Input = ({
+  className,
+  type,
+  id,
+  name,
+  placeholder,
+  min,
+  max,
+  icon1,
+  icon2,
+}) => {
   const inputHandler = (e) => {
     setInputValue(e.target.value);
     console.log(inputValue);
@@ -22,6 +33,12 @@ const Input = ({ className, type, id, name, placeholder, min, max }) => {
         value={inputValue}
         onChange={inputHandler}
       />
+      {icon1 && (
+        <div className="icons_container">
+          <FontAwesomeIcon icon={icon1} />
+          <FontAwesomeIcon icon={icon2} />
+        </div>
+      )}
     </div>
   );
 };

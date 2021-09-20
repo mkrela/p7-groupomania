@@ -1,10 +1,16 @@
-import React from "react";
-import "./Input.scss"
+import React, { useState } from "react";
+import "./Input.scss";
 
-const Input = ({ type, id, name, placeholder, min, max }) => {
-    
+const Input = ({ className, type, id, name, placeholder, min, max }) => {
+  const inputHandler = (e) => {
+    setInputValue(e.target.value);
+    console.log(inputValue);
+  };
+
+  const [inputValue, setInputValue] = useState("");
+
   return (
-    <div className="input-container">
+    <div className={className}>
       <input
         type={type}
         id={id}
@@ -13,6 +19,8 @@ const Input = ({ type, id, name, placeholder, min, max }) => {
         minLength={min}
         maxLength={max}
         required
+        value={inputValue}
+        onChange={inputHandler}
       />
     </div>
   );

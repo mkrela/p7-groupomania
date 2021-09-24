@@ -1,6 +1,5 @@
 @import "../../../styles/settings.scss";
 
-
 .register-or-login {
   width: 100%;
   @include flex-center;
@@ -25,6 +24,12 @@
 .active-style {
   background-color: rgba(221, 221, 221, 0.151);
   border-bottom: none !important;
+  &__signup {
+    border-right: solid 1px $black;
+  }
+  &__login {
+    border-left: solid 1px $black;
+  }
 }
 h3 {
   text-transform: capitalize;
